@@ -1,0 +1,8 @@
+node_modules/
+
+gitignore
+exlintrc.js
+prettierignore
+
+*.js
+*.json

@@ -1,0 +1,25 @@
+{
+  "endOfLine": "crlf",
+  "semi": true,
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "./src",
+      "options": {
+        "semi": true
+      }
+    },
+    {
+      "files": ["*.ts"],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}
